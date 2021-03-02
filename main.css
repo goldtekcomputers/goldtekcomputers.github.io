@@ -1,0 +1,49 @@
+
+@media  only screen and (min-device-width: 768px) 
+{
+    .form-container {
+      padding: 5%;
+      background: #ffffff;
+      border: 9px solid #f2f2f2;            
+      max-width: 1024px;
+      margin: auto;
+    }
+
+}
+
+h1, p
+{
+  text-align: center;
+}
+
+h4 {
+	text-align: center;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+input, textarea , button
+{
+  width: 100%;
+}    
+textarea
+{
+  height: 100px;
+}
+input[type="checkbox"]
+{
+    width: auto;
+}
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: bold; 
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
